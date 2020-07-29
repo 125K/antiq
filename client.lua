@@ -32,7 +32,7 @@ Citizen.CreateThread(function()
 		
 		for i=0,23 do
 			local distance = GetDistanceBetweenCoords(GetEntityCoords(ped), licores[i], true)
-			if distance < 2.1 then
+			if distance < 2.7 then
 				DisableControlAction(2, 44, true)
 			end
 		end
